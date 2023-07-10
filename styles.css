@@ -1,21 +1,103 @@
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.ear1{
+    border:4px solid black;
+    height:100px;
+    width:40px;
+    background-color:pink;
+    left:125px;
+    border-radius:20px 20px 20px 20px;
+    position:absolute;
+    
 }
-.lr{
-    background-color:brown;
-    border-style: double;
-    padding: 2%;
+.ear2{
+    border:4px solid black;
+    height:100px;
+    width:40px;
+    background-color:pink;
+    left:225px;
+    border-radius:20px 20px 20px 20px;
+    position: absolute;
 }
-.PR{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.face{
+    border: 5px solid black;
+    height:150px;
+    width:150px;
+    background-color:pink;
+    border-radius:100%;
+    position:absolute;
+    left:118px;
+    top:15px;
 }
-body{
-    background-image: url("https://th.bing.com/th/id/OIP._SZM30_l7zXHQ3ShNcMOxQHaE8?w=245&h=180&c=7&r=0&o=5&pid=1.7");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.reye{
+    
+    height:30px;
+    width:30px;
+    border: solid black;
+    background-color:whitesmoke;
+    border-radius:100%;
+    position: absolute;
+    left:20px;
+    top:35px;
+    
+}
+.reyee{
+    border: 1px solid black;
+    height:15px;
+    width:15px;
+    background-color:black;
+    border-radius:100%;
+    position: absolute;
+    left:27px;
+    top:43px;
+}
+.leye{
+    
+    height:30px;
+    width:30px;
+    border: solid black;
+    background-color:whitesmoke;
+    border-radius:100%;
+    position: absolute;
+    left:90px;
+    top:35px;
+}
+.leyee{
+    border: 1px solid black;
+    height:15px;
+    width:15px;
+    background-color:black;
+    border-radius:100%;
+    position: absolute;
+    left:97px;
+    top:43px;
+}
+.mouth{
+    border:4px solid pink;
+    height:30px;
+    width:65px;
+    background-color:red;
+    left:135px;
+    border-radius:20px 20px 20px 20px;
+    position: absolute;
+    left:40px;
+    top:90px;
+}
+.nose1{
+    border: 1px solid black;
+    height:15px;
+    width:15px;
+    background-color:black;
+    border-radius:100%;
+    position: absolute;
+    left:8px;
+    top:8px;
+}
+.nose2{
+    border: 1px solid black;
+    height:15px;
+    width:15px;
+    background-color:black;
+    border-radius:100%;
+    position: absolute;
+    left:43px;
+    top:8px;
 }
